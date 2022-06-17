@@ -41,7 +41,7 @@ class ReviewDao(context: Context, factory: SQLiteDatabase.CursorFactory?) : SQLi
     }
 
     companion object{
-        private val DATABASE_NAME = "BLACKROSE"
+        private val DATABASE_NAME = "ASESSMENT02"
         private val DATABASE_VERSION = 1
         val TABLE_NAME = "t_review"
         val ID_COL = "id"

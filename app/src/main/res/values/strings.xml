@@ -14,4 +14,9 @@
     <string name="menu_add">Add Data</string>
     <string name="menu_exit">Exit</string>
     <string name="asessment_2">Asessment 2</string>
+
+    <string name="notif_name">My Review App</string>
+    <string name="notif_deskripsi">Review App</string>
+    <string name="notif_title">Review</string>
+    <string name="notif_text">Review Baru Telah Masuk</string>
 </resources>

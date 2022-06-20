@@ -10,6 +10,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.work.WorkManager
 import org.d3if1016.asessment2.adapter.AdapterReview
 import org.d3if1016.asessment2.dao.ReviewDao
 import org.d3if1016.asessment2.RecyclerViewClickListener
@@ -42,7 +43,7 @@ class HomeFragment : Fragment(), RecyclerViewClickListener {
         return root
     }
 
-    fun loadData(){
+        fun loadData(){
         data.clear()
         val db = context?.let { ReviewDao(it, null) }
         val cursor = db?.getReview()

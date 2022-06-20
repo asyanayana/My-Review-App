@@ -1,8 +1,11 @@
 package org.d3if1016.asessment2
 
+import android.app.NotificationChannel
+import android.app.NotificationManager
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
+import android.os.Build
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -27,6 +30,10 @@ class MainActivity : AppCompatActivity() {
     val PREFS_NAME = "Name"
     val PREFS_KETERANGAN = "Keterangan"
     private lateinit var sharedPreferences: SharedPreferences
+
+    companion object {
+        const val CHANNEL_ID = "Notification"
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -54,6 +61,17 @@ class MainActivity : AppCompatActivity() {
         val viewHeader = navView.getHeaderView(0)
         val navViewHeaderBinding: NavHeaderMainBinding = NavHeaderMainBinding.bind(viewHeader)
         navViewHeaderBinding.nama.text = sharedPreferences.getString(PREFS_NAME, "")
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            val name = getString(R.string.notif_name)
+            val importance = NotificationManager.IMPORTANCE_DEFAULT
+            val channel = NotificationChannel(CHANNEL_ID, name, importance)
+            channel.description = getString(R.string.notif_deskripsi)
+            val manager = getSystemService(Context.NOTIFICATION_SERVICE)
+                    as NotificationManager
+            manager.createNotificationChannel(channel)
+        }
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

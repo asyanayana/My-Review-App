@@ -6,7 +6,7 @@ data class Profile(
     val nama: String,
     val nim: String,
     val jurusan: String,
-    val Hobi: String,
+    val hobi: String,
     @Json (name = "imageId")
     val imageUrl: String
 )

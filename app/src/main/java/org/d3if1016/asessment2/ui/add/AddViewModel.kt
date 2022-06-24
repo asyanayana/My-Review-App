@@ -8,7 +8,7 @@ import androidx.work.ExistingWorkPolicy
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import org.d3if1016.asessment2.MainActivity
-import org.d3if1016.asessment2.network.UpdateWorker
+import org.d3if1016.asessment2.network.Notification
 import java.util.concurrent.TimeUnit
 
 class AddViewModel : ViewModel() {
@@ -19,7 +19,7 @@ class AddViewModel : ViewModel() {
     val text: LiveData<String> = _text
 
     fun scheduleUpdater(app: Application) {
-        val request = OneTimeWorkRequestBuilder<UpdateWorker>()
+        val request = OneTimeWorkRequestBuilder<Notification>()
             .setInitialDelay(10, TimeUnit.SECONDS)
             .build()
         WorkManager.getInstance(app).enqueueUniqueWork(

@@ -23,4 +23,10 @@
         android:label="@string/menu_exit"
         tools:layout="@layout/fragment_exit" />
 
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="org.d3if1016.asessment2.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile"/>
+
 </navigation>

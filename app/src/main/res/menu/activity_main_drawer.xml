@@ -4,6 +4,12 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="@string/menu_profile"/>
+
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_camera"
@@ -12,6 +18,7 @@
             android:id="@+id/nav_add"
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/menu_add" />
+
         <item
             android:id="@+id/nav_exit"
             android:icon="@drawable/ic_baseline_power_settings_new_24"

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="profile"
+            type="org.d3if1016.asessment2.network.Profile" />
+    </data>
+
+    <ImageView
+        android:id="@+id/profil"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:adjustViewBounds="true"
+        android:padding="2dp"
+        android:scaleType="fitXY"
+        app:imageId="@{profile.imageUrl}"
+        tools:src="@drawable/ic_baseline_account_circle_24" />
+</layout>

@@ -11,6 +11,35 @@
         <entry key="..\:/MOPRO 1/MyReview App 2/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1925" />
         <entry key="..\:/MOPRO 1/MyReview App 2/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1925" />
         <entry key="..\:/MOPRO 1/MyReview App 2/app/src/main/res/drawable/side_nav_bar.xml" value="0.1925" />
+        <entry key="..\:/MOPRO 1/MyReview App 2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/MOPRO 1/MyReview App 2/app/src/main/res/layout/activity_setting.xml" value="0.25" />
+        <entry key="..\:/MOPRO 1/MyReview App 2/app/src/main/res/layout/app_bar_main.xml" value="0.25" />
+        <entry key="..\:/MOPRO 1/MyReview App 2/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/MOPRO 1/MyReview App 2/app/src/main/res/layout/custom_review.xml" value="0.25" />
+        <entry key="..\:/MOPRO 1/MyReview App 2/app/src/main/res/layout/fragment_add.xml" value="0.25" />
+        <entry key="..\:/MOPRO 1/MyReview App 2/app/src/main/res/layout/fragment_exit.xml" value="0.25" />
+        <entry key="..\:/MOPRO 1/MyReview App 2/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/MOPRO 1/MyReview App 2/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="..\:/MOPRO 1/MyReview App 2/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
+        <entry key="..\:/MOPRO 1/MyReview App 2/app/src/main/res/menu/main.xml" value="0.25" />
+        <entry key="..\:/MOPRO 1/MyReview App 3/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.2065" />
+        <entry key="..\:/MOPRO 1/MyReview App 3/app/src/main/res/drawable/ic_icon_error.xml" value="0.216" />
+        <entry key="..\:/MOPRO 1/MyReview App 3/app/src/main/res/drawable/ic_icon_loading.xml" value="0.216" />
+        <entry key="..\:/MOPRO 1/MyReview App 3/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/MOPRO 1/MyReview App 3/app/src/main/res/layout/activity_setting.xml" value="0.25" />
+        <entry key="..\:/MOPRO 1/MyReview App 3/app/src/main/res/layout/app_bar_main.xml" value="0.25" />
+        <entry key="..\:/MOPRO 1/MyReview App 3/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/MOPRO 1/MyReview App 3/app/src/main/res/layout/custom_review.xml" value="0.25" />
+        <entry key="..\:/MOPRO 1/MyReview App 3/app/src/main/res/layout/fragment_add.xml" value="0.1" />
+        <entry key="..\:/MOPRO 1/MyReview App 3/app/src/main/res/layout/fragment_blank.xml" value="0.25" />
+        <entry key="..\:/MOPRO 1/MyReview App 3/app/src/main/res/layout/fragment_exit.xml" value="0.25" />
+        <entry key="..\:/MOPRO 1/MyReview App 3/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/MOPRO 1/MyReview App 3/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/MOPRO 1/MyReview App 3/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="..\:/MOPRO 1/MyReview App 3/app/src/main/res/layout/prifile_layout.xml" value="0.1" />
+        <entry key="..\:/MOPRO 1/MyReview App 3/app/src/main/res/layout/profile_layout.xml" value="0.25" />
+        <entry key="..\:/MOPRO 1/MyReview App 3/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
+        <entry key="..\:/MOPRO 1/MyReview App 3/app/src/main/res/menu/main.xml" value="0.25" />
       </map>
     </option>
   </component>

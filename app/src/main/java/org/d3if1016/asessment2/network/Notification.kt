@@ -11,7 +11,7 @@ import androidx.work.WorkerParameters
 import org.d3if1016.asessment2.MainActivity
 import org.d3if1016.asessment2.R
 
-class UpdateWorker (
+class Notification (
     context: Context,
     workerParams: WorkerParameters
 ) : Worker(context, workerParams) {
